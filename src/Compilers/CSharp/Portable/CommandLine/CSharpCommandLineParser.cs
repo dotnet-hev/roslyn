@@ -1672,6 +1672,8 @@ namespace Microsoft.CodeAnalysis.CSharp
                     return Platform.Arm;
                 case "arm64":
                     return Platform.Arm64;
+                case "mips64":
+                    return Platform.Mips64;
                 default:
                     AddDiagnostic(diagnostics, ErrorCode.ERR_BadPlatformType, value);
                     return Platform.AnyCpu;

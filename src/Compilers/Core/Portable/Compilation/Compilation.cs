@@ -1838,6 +1838,10 @@ namespace Microsoft.CodeAnalysis
                     machine = Machine.ArmThumb2;
                     break;
 
+                case Platform.Mips64:
+                    machine = Machine.Mips64;
+                    break;
+
                 case Platform.X64:
                     machine = Machine.Amd64;
                     break;

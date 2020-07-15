@@ -86,6 +86,8 @@ namespace Microsoft.CodeAnalysis.CSharp.Symbols
                         return Machine.Amd64;
                     case Platform.Arm64:
                         return Machine.Arm64;
+                    case Platform.Mips64:
+                        return Machine.Mips64;
                     case Platform.Itanium:
                         return Machine.IA64;
                     default:

@@ -1940,6 +1940,7 @@ Microsoft.CodeAnalysis.Platform.AnyCpu = 0 -> Microsoft.CodeAnalysis.Platform
 Microsoft.CodeAnalysis.Platform.AnyCpu32BitPreferred = 4 -> Microsoft.CodeAnalysis.Platform
 Microsoft.CodeAnalysis.Platform.Arm = 5 -> Microsoft.CodeAnalysis.Platform
 Microsoft.CodeAnalysis.Platform.Arm64 = 6 -> Microsoft.CodeAnalysis.Platform
+Microsoft.CodeAnalysis.Platform.Mips64 = 7 -> Microsoft.CodeAnalysis.Platform
 Microsoft.CodeAnalysis.Platform.Itanium = 3 -> Microsoft.CodeAnalysis.Platform
 Microsoft.CodeAnalysis.Platform.X64 = 2 -> Microsoft.CodeAnalysis.Platform
 Microsoft.CodeAnalysis.Platform.X86 = 1 -> Microsoft.CodeAnalysis.Platform

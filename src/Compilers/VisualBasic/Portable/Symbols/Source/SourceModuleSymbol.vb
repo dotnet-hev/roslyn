@@ -106,6 +106,8 @@ Namespace Microsoft.CodeAnalysis.VisualBasic.Symbols
                         Return System.Reflection.PortableExecutable.Machine.Arm64
                     Case Platform.Arm
                         Return System.Reflection.PortableExecutable.Machine.ArmThumb2
+                    Case Platform.Mips64
+                        Return System.Reflection.PortableExecutable.Machine.Mips64
                     Case Platform.X64
                         Return System.Reflection.PortableExecutable.Machine.Amd64
                     Case Platform.Itanium

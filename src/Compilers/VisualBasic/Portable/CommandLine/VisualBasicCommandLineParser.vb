@@ -2087,6 +2087,8 @@ lVbRuntimePlus:
                         Return Platform.Arm
                     Case "arm64"
                         Return Platform.Arm64
+                    Case "mips64"
+                        Return Platform.Mips64
                     Case Else
                         AddDiagnostic(errors, ERRID.ERR_InvalidSwitchValue, name, value)
                 End Select

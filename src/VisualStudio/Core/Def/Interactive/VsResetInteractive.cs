@@ -195,6 +195,7 @@ namespace Microsoft.VisualStudio.LanguageServices.Interactive
                 case Platform.Itanium:
                 case Platform.X64:
                 case Platform.Arm64:
+                case Platform.Mips64:
                     return true;
 
                 default:
